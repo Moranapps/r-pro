@@ -13,11 +13,11 @@ function App() {
 		<Router>
 			<Navigation />
 			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/o-nas" element={<About />} />
-				<Route path="/projekty" element={<Projects />} />
-				<Route path="/uslugi" element={<Services />} />
-				<Route path="/kontakt" element={<Contact />} />
+				<Route path="/r-pro/" element={<Home />} />
+				<Route path="/r-pro/o-nas" element={<About />} />
+				<Route path="/r-pro/projekty" element={<Projects />} />
+				<Route path="/r-pro/uslugi" element={<Services />} />
+				<Route path="/r-pro/kontakt" element={<Contact />} />
 			</Routes>
 			<Hero>
 				<h1>R-PRO</h1>
