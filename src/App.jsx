@@ -19,6 +19,14 @@ function App() {
 				<Route path="/uslugi" element={<Services />} />
 				<Route path="/kontakt" element={<Contact />} />
 			</Routes>
+			<Hero>
+				<h1>R-PRO</h1>
+				<p>Your Trusted Partner in the Real Estate Industry</p>
+			</Hero>
+			<Offer />
+			<Services />
+			<Stats />
+			<Latest />
 			<Footer />
 		</Router>
 	);
