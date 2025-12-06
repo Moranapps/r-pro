@@ -1,0 +1,179 @@
+.footer {
+	background-color: #1c441fbb;
+	color: #ffffff;
+	padding: 3rem 2rem;
+	width: 100vw;
+	box-sizing: border-box;
+}
+
+.footer-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 3rem;
+}
+
+.footer-left {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	flex: 1;
+}
+
+.footer-company-details {
+	font-size: 0.8rem;
+	line-height: 1.6;
+	color: #cccccc;
+	margin: 0;
+	max-width: 280px;
+	text-align: left;
+}
+
+.footer-logo-section {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.footer-logo {
+	height: 40px;
+	width: 40px;
+	object-fit: contain;
+	filter: brightness(0) invert(1);
+}
+
+.footer-name {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: -0.5px;
+}
+
+.footer-info {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.footer-company-name {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin: 0;
+	color: #ffffff;
+}
+
+.footer-description {
+	font-size: 1rem;
+	line-height: 1.6;
+	color: #cccccc;
+	margin: 0;
+}
+
+.footer-right {
+	flex: 0 0 auto;
+}
+
+.footer-nav {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: flex-end;
+}
+
+.footer-nav-link {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1rem;
+	text-transform: uppercase;
+	transition: color 0.3s ease;
+	position: relative;
+}
+
+.footer-nav-link:hover {
+	color: #132b15;
+}
+
+.footer-nav-link::after {
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	right: 0;
+	width: 0;
+	height: 2px;
+	background-color: #132b15;
+	transition: width 0.3s ease;
+}
+
+.footer-nav-link:hover::after {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.footer {
+		padding: 2rem 1.5rem;
+	}
+
+	.footer-container {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.footer-right {
+		width: 100%;
+	}
+
+	.footer-nav {
+		align-items: flex-start;
+	}
+
+	.footer-logo {
+		height: 35px;
+		width: 35px;
+	}
+
+	.footer-name {
+		font-size: 1.25rem;
+	}
+
+	.footer-company-name {
+		font-size: 1.1rem;
+	}
+
+	.footer-description {
+		font-size: 0.9rem;
+	}
+
+	.footer-company-details {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+@media (max-width: 414px) {
+	.footer {
+		padding: 2rem 0.5rem;
+	}
+
+	.footer-container {
+		gap: 1.5rem;
+	}
+
+	.footer-company-name {
+		font-size: 1rem;
+	}
+
+	.footer-description {
+		font-size: 0.85rem;
+	}
+
+	.footer-company-details {
+		font-size: 0.75rem;
+	}
+
+	.footer-nav-link {
+		font-size: 0.9rem;
+	}
+}
