@@ -10,23 +10,15 @@ import './App.css';
 
 function App() {
 	return (
-		<Router>
+		<Router basename="/r-pro/">
 			<Navigation />
 			<Routes>
-				<Route path="/r-pro/" element={<Home />} />
-				<Route path="/r-pro/o-nas" element={<About />} />
-				<Route path="/r-pro/projekty" element={<Projects />} />
-				<Route path="/r-pro/uslugi" element={<Services />} />
-				<Route path="/r-pro/kontakt" element={<Contact />} />
+				<Route path="/" element={<Home />} />
+				<Route path="/o-nas" element={<About />} />
+				<Route path="/projekty" element={<Projects />} />
+				<Route path="/uslugi" element={<Services />} />
+				<Route path="/kontakt" element={<Contact />} />
 			</Routes>
-			<Hero>
-				<h1>R-PRO</h1>
-				<p>Your Trusted Partner in the Real Estate Industry</p>
-			</Hero>
-			<Offer />
-			<Services />
-			<Stats />
-			<Latest />
 			<Footer />
 		</Router>
 	);
