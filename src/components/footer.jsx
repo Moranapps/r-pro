@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import './footer.css';
 import reactLogo from '../assets/logo-white.png';
 
 function Footer() {
 	const navItems = [
-		{ href: '#o-nas', label: 'o nas' },
-		{ href: '#projekty', label: 'projekty' },
-		{ href: '#uslugi', label: 'usługi' },
-		{ href: '#kontakt', label: 'kontakt' },
+		{ to: '/o-nas', label: 'o nas' },
+		{ to: '/projekty', label: 'projekty' },
+		{ to: '/uslugi', label: 'usługi' },
+		{ to: '/kontakt', label: 'kontakt' },
 	];
 
 	return (
@@ -27,9 +28,9 @@ function Footer() {
 				<div className="footer-right">
 					<nav className="footer-nav">
 						{navItems.map((item, index) => (
-							<a key={index} href={item.href} className="footer-nav-link">
+							<Link key={index} to={item.to} className="footer-nav-link">
 								{item.label}
-							</a>
+							</Link>
 						))}
 					</nav>
 				</div>
