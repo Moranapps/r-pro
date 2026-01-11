@@ -9,7 +9,7 @@ function Home() {
 		<>
 			<Hero>
 				<h1>R-PRO</h1>
-				<p>Your Trusted Partner in the Real Estate Industry</p>
+				<p>Tworzymy biura, które wspierają rozwój biznesu</p>
 			</Hero>
 			<Offer />
 			<Services />

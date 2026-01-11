@@ -1,27 +1,27 @@
 import './Services.css';
-import service1 from '../assets/construction-safety.png';
-import service2 from '../assets/drill.png';
-import service3 from '../assets/measuring.png';
+import service1 from '../assets/photos/photo20.jpeg';
+import service2 from '../assets/photos/photo16.jpeg';
+import service3 from '../assets/house3.jpg';
 
 function Services() {
 	const services = [
 		{
 			image: service1,
-			title: 'Bezpieczeństwo Budowy',
+			title: 'Wykończenia wnętrz',
 			description:
-				'Zapewniamy kompleksowe usługi związane z bezpieczeństwem na budowie. Nasz zespół specjalistów dba o przestrzeganie wszystkich norm i przepisów BHP, zapewniając bezpieczne warunki pracy dla wszystkich zaangażowanych w projekt.',
+				'Realizujemy kompleksowe wykończenia wnętrz w obiektach biurowych, komercyjnych oraz prywatnych. Zakres prac obejmuje m.in. układanie kafelków, montaż sufitów podwieszanych, ścian działowych, przyścianek oraz zabudów gipsowo-kartonowych. Dbamy o wysoką jakość wykonania, estetykę detali oraz zgodność z projektem i obowiązującymi normami.',
 		},
 		{
 			image: service2,
-			title: 'Wiercenie i Montaż',
+			title: 'Stolarka i prace specjalistyczne',
 			description:
-				'Profesjonalne usługi wiercenia i montażu w różnych materiałach. Posiadamy nowoczesny sprzęt i doświadczony zespół, który zapewnia precyzyjne wykonanie prac zgodnie z najwyższymi standardami jakości.',
+				'Zapewniamy realizację prac stolarskich, w tym zabudów na wymiar, a także organizację i montaż luster. Koordynujemy również wykonanie wylewek oraz innych robót specjalistycznych, współpracując ze sprawdzonymi podwykonawcami. Klient otrzymuje jednego partnera odpowiedzialnego za całość prac i ich terminową realizację.',
 		},
 		{
 			image: service3,
-			title: 'Pomiary i Analizy',
+			title: 'Budowa domów od podstaw',
 			description:
-				'Dokładne pomiary i analizy techniczne dla projektów budowlanych. Wykonujemy kompleksowe badania i pomiary, które są niezbędne do prawidłowego planowania i realizacji inwestycji budowlanych.',
+				'Na zlecenie klientów realizujemy budowę domów jednorodzinnych od stanu zerowego po stan deweloperski lub „pod klucz”. Prowadzimy inwestycję kompleksowo – od przygotowania terenu, przez prace konstrukcyjne, aż po finalne wykończenie. Zapewniamy rzetelne wykonanie, transparentną współpracę i stały nadzór nad realizacją.',
 		},
 	];
 

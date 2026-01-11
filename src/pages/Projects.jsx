@@ -1,14 +1,20 @@
 import { useState, useEffect, useCallback } from 'react';
 import './Projects.css';
-import project1 from '../assets/pexels-karola-g-4977399.jpg';
-import project2 from '../assets/pexels-kseniachernaya-5691622.jpg';
-import project3 from '../assets/pexels-kseniachernaya-5691686.jpg';
-import project4 from '../assets/pexels-life-of-pix-8092.jpg';
-import project5 from '../assets/pexels-pavel-danilyuk-7937304.jpg';
-import project6 from '../assets/pexels-reneterp-2505120.jpg';
-import project7 from '../assets/pexels-reneterp-3990359.jpg';
-import project8 from '../assets/pexels-shkrabaanthony-5493670.jpg';
-import project9 from '../assets/pexels-shox-27440327.jpg';
+import project1 from '../assets/photos/main/photo14.jpg';
+import project2 from '../assets/photos/main/photo25.jpg';
+import project3 from '../assets/photos/photo9.jpeg';
+import project4 from '../assets/photos/main/photo17.jpg';
+import project5 from '../assets/photos/main/photo18.jpg';
+import project6 from '../assets/photos/main/photo15.jpg';
+import project7 from '../assets/1.jpg';
+import project8 from '../assets/2.jpg';
+import project9 from '../assets/3.jpg';
+import project10 from '../assets/4.jpg';
+import project11 from '../assets/5.jpg';
+import project12 from '../assets/photos/photo21.jpeg';
+import project13 from '../assets/photos/photo17.jpeg';
+import project14 from '../assets/photos/photo18.jpeg';
+import project15 from '../assets/photos/photo19.jpeg';
 
 function Projects() {
 	const [selectedImageIndex, setSelectedImageIndex] = useState(null);
@@ -20,9 +26,15 @@ function Projects() {
 		project4,
 		project5,
 		project6,
+		project12,
 		project7,
 		project8,
 		project9,
+		project10,
+		project11,
+		project13,
+		project14,
+		project15,
 	];
 
 	const openModal = (index) => {
@@ -79,7 +91,7 @@ function Projects() {
 	return (
 		<div className="projects-page">
 			<div className="projects-container">
-				<h1 className="projects-header">Projekty</h1>
+				<h1 className="projects-header">Realizacje</h1>
 				<div className="projects-grid">
 					{projects.map((project, index) => (
 						<div

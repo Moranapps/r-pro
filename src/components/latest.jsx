@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import './latest.css';
-import image1 from '../assets/pexels-karola-g-4977399.jpg';
-import image2 from '../assets/pexels-kseniachernaya-5691622.jpg';
-import image3 from '../assets/pexels-kseniachernaya-5691686.jpg';
-import image4 from '../assets/pexels-life-of-pix-8092.jpg';
-import image5 from '../assets/pexels-pavel-danilyuk-7937304.jpg';
-import image6 from '../assets/pexels-reneterp-2505120.jpg';
-import image7 from '../assets/pexels-reneterp-3990359.jpg';
-import image8 from '../assets/pexels-shkrabaanthony-5493670.jpg';
+import image1 from '../assets/photos/main/photo14.jpg';
+import image2 from '../assets/photos/latest3.jpeg';
+import image3 from '../assets/photos/latest4.jpeg';
+import image4 from '../assets/photos/main/photo17.jpg';
+import image5 from '../assets/photos/photo3.jpeg';
+import image6 from '../assets/photos/main/photo15.jpg';
+import image7 from '../assets/photos/photo16.jpeg';
+import image8 from '../assets/photos/latest1.jpeg';
 
 function Latest() {
 	const images = [

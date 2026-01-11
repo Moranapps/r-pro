@@ -1,5 +1,5 @@
 import './Contact.css';
-import contactImage from '../assets/pexels-thirdman-8482816.jpg';
+import contactImage from '../assets/photos/main/photo25.jpg';
 
 function Contact() {
 	return (
@@ -13,19 +13,12 @@ function Contact() {
 					<div className="contact-details">
 						<div className="contact-item">
 							<h3>Telefon</h3>
-							<p>+48 123 456 789</p>
-							<p>+48 987 654 321</p>
+							<p>Biuro: +48 537 577 383</p>
 						</div>
 						<div className="contact-item">
 							<h3>Email</h3>
-							<p>kontakt@r-pro.pl</p>
-							<p>info@r-pro.pl</p>
-						</div>
-						<div className="contact-item">
-							<h3>Adres</h3>
-							<p>ul. Przykładowa 123</p>
-							<p>00-000 Warszawa</p>
-							<p>Polska</p>
+							<p>biuro@r-pro.pl</p>
+							<p>remonty-pro@onet.pl</p>
 						</div>
 					</div>
 				</div>

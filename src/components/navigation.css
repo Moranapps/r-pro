@@ -18,8 +18,8 @@
 }
 
 .nav-logo {
-	height: 80px;
-	width: 100px;
+	height: 75px;
+	width: 110px;
 	object-fit: contain;
 }
 
@@ -178,8 +178,8 @@
 	}
 
 	.nav-logo {
-		height: 60px;
-		width: 75px;
+		height: 75px;
+		width: 110px;
 	}
 }
 
@@ -192,8 +192,8 @@
 	}
 
 	.nav-logo {
-		height: 50px;
-		width: 65px;
+		height: 75px;
+		width: 110px;
 	}
 
 	.nav-name {
@@ -223,8 +223,8 @@
 	}
 
 	.nav-logo {
-		height: 45px;
-		width: 60px;
+		height: 75px;
+		width: 110px;
 		flex-shrink: 0;
 	}
 

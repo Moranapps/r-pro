@@ -1,26 +1,26 @@
 import './services.css';
-import officeImage2 from '../assets/pexels-kseniachernaya-5691622.jpg';
-import officeImage3 from '../assets/pexels-reneterp-2505120.jpg';
-import officeImage4 from '../assets/pexels-thirdman-8482816.jpg';
+import officeImage2 from '../assets/photos/photo20.jpeg';
+import officeImage3 from '../assets/photos/photo16.jpeg';
+import officeImage4 from '../assets/house.jpg';
 
 function Services() {
 	const services = [
 		{
-			title: 'Modernizacja i Rewitalizacja',
+			title: 'Kompleksowe Prace Wykończeniowe',
 			description:
-				'Odświeżamy starsze przestrzenie, podnosząc ich funkcjonalność, komfort oraz nowoczesny charakter.',
+				'Kompleksowe prace wykończeniowe: kafelki, sufity, ściany działowe i zabudowy g-k. Realizujemy projekty sprawnie, estetycznie i zgodnie z dokumentacją.',
 			image: officeImage2,
 		},
 		{
-			title: 'Prace Wykończeniowe',
+			title: 'Stolarka i prace specjalistyczne',
 			description:
-				'Malowanie, gładzie, montaż wykładzin, zabudowy g-k, kuchnie, recepcje i strefy wspólne.',
+				'Wykonujemy zabudowy stolarskie, organizujemy lustra oraz koordynujemy wylewki i prace specjalistyczne. Jeden wykonawca - pełna odpowiedzialność.',
 			image: officeImage3,
 		},
 		{
-			title: 'Space Planning i Projekt Wnętrz',
+			title: 'Budowa domków jednorodzinnych od podstaw',
 			description:
-				'Pomagamy zaplanować idealne biuro — ergonomiczne, estetyczne i dopasowane do stylu pracy firmy.',
+				'Budujemy domy od podstaw - od stanu zerowego po deweloperski lub pod klucz. Prowadzimy inwestycję kompleksowo i terminowo.',
 			image: officeImage4,
 		},
 	];

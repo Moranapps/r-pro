@@ -3,7 +3,7 @@ import './stats.css';
 function Stats() {
 	const stats = [
 		{
-			number: '70+',
+			number: '15+',
 			description: 'realizacji biur klasy A',
 		},
 		{
@@ -11,11 +11,11 @@ function Stats() {
 			description: 'zaufanych partnerów i podwykonawców',
 		},
 		{
-			number: '150 000+ m²',
+			number: '950 000+ m²',
 			description: 'wykończonych powierzchni',
 		},
 		{
-			number: '300+',
+			number: '150+',
 			description: 'zadowolonych klientów biznesowych',
 		},
 	];

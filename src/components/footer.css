@@ -38,8 +38,8 @@
 }
 
 .footer-logo {
-	height: 40px;
-	width: 40px;
+	height: 190px;
+	width: 290px;
 	object-fit: contain;
 	filter: brightness(0) invert(1);
 }
@@ -55,6 +55,12 @@
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
+	font-size: 0.8rem;
+	line-height: 1.6;
+	color: #cccccc;
+	margin: 0;
+	max-width: 315px;
+	text-align: left;
 }
 
 .footer-company-name {
@@ -121,8 +127,13 @@
 		gap: 2rem;
 	}
 
+	.footer-left {
+		order: 2;
+	}
+
 	.footer-right {
 		width: 100%;
+		order: 1;
 	}
 
 	.footer-nav {
@@ -130,8 +141,8 @@
 	}
 
 	.footer-logo {
-		height: 35px;
-		width: 35px;
+		height: 220px;
+		width: 320px;
 	}
 
 	.footer-name {
@@ -159,6 +170,7 @@
 
 	.footer-container {
 		gap: 1.5rem;
+		order: -1;
 	}
 
 	.footer-company-name {
