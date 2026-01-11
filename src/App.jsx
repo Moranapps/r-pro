@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
 	return (
-		<Router basename="/r-pro/">
+		<Router>
 			<Navigation />
 			<Routes>
 				<Route path="/" element={<Home />} />
